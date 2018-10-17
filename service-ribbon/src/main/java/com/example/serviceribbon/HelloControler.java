@@ -13,6 +13,8 @@ public class HelloControler {
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name){
         String s = "0925";
+        String branch = "1045";
+        String masterBranch = "master-1050";
         return helloService.hiService(name);
     }
 
